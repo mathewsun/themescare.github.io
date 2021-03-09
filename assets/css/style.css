@@ -273,7 +273,7 @@ li {
 .about-heading h2,
 .choose-heading h2,
 .faq-heading h2 {
-	text-transform: capitalize;
+	
 	font-size: 40px;
 	color: #000;
 	font-family: inherit;
@@ -837,7 +837,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .feature-text h3 {
 	font-weight: 600;
 	color: #000;
-	text-transform: capitalize;
+	
 	font-size: 23px;
 	margin-bottom: 10px;
 }
@@ -977,7 +977,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .video-inn h2 {
-	text-transform: capitalize;
+	
 	font-size: 30px;
 	color: #000;
 	font-family: inherit;
@@ -1102,7 +1102,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .choose-text h3 {
 	font-weight: 600;
 	color: #000;
-	text-transform: capitalize;
+	
 	font-size: 20px;
 	margin-bottom: 7px;
 	-webkit-transition: all 0.4s ease 0s;
@@ -1198,7 +1198,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .product-text h3 {
 	font-size: 23px;
-	text-transform: capitalize;
+	
 	font-weight: 600;
 	margin-bottom: 10px;
 }
