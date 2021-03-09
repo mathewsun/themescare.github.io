@@ -815,7 +815,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	content: '';
 	width: 90px;
 	height: 90px;
-	b
+	
 	position: absolute;
 	left: -5px;
 	top: -5px;
