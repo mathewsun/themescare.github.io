@@ -792,11 +792,9 @@ nav.fixed-top .nav-item .nav-link:before {
 	width: 80px;
 	height: 80px;
 	margin: 0 auto;
-	background-color: #4777f4;
+	
 	line-height: 100px;
-	border-radius: 5px;
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
+	
 	margin: 20px auto 60px;
 	position: relative;
 }
@@ -805,10 +803,10 @@ nav.fixed-top .nav-item .nav-link:before {
 	content: '';
 	width: 100px;
 	height: 100px;
-	background-color: rgba(71, 119, 244, 0.29);
+	
 	position: absolute;
 	left: -10px;
-	border-radius: 5px;
+	
 	top: -10px;
 	z-index: -1;
 }
@@ -817,7 +815,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	content: '';
 	width: 90px;
 	height: 90px;
-	background-color: rgba(41, 87, 208, 0.45);
+	b
 	position: absolute;
 	left: -5px;
 	top: -5px;
