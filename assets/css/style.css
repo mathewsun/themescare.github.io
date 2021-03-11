@@ -49,6 +49,11 @@ This files contents are outlined below >>>>
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700');
 @import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
+@font-face {
+    font-family: ArialRounded; /* Гарнитура шрифта */
+    src: url(../fonts/ArialRoundedMTProCyr-Bold.otf); /* Для IE5-8 */
+    src: local(ArialRounded), url(../fonts/ArialRoundedMTProCyr-Bold.otf); /* Для остальных браузеров */
+   }
 /*================================================
 02 - DEFAULT CSS
 ==================================================*/
@@ -108,7 +113,7 @@ h6 {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	font-family: 'Lato', sans-serif;
+	font-family: 'ArialRounded', sans-serif;
 }
 
 a {
@@ -598,7 +603,7 @@ nav.navbar .navbar-toggler {
 }
 
 .logo img{
-	width:65px
+	width:55px
 }
 
 nav.fixed-top .navbar-toggler span {
@@ -730,8 +735,9 @@ nav.fixed-top .nav-item .nav-link:before {
 	line-height: 90px;
 	font-family: inherit;
 	margin-bottom: 20px;
+	margin-top: 100px; 
 	
-	font-family: 'Arial Rounded MT Bold', sans-serif;
+	
 }
 
 
