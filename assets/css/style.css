@@ -664,11 +664,13 @@ nav.fixed-top .logo {
 }
 
 nav.fixed-top .logo.HideScroll {
-	display: block
+	display: block;
 }
 
+
+
 .HideScroll {
-	display: none
+	display: none;
 }
 
 nav.fixed-top .logo:focus,
@@ -754,7 +756,11 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .welcome-image img {
-	max-width: 600px;
+	max-width: 700px;
+}
+
+.welcom-image{
+	width: 700px; 
 }
 
 .welcome-text h2 {
@@ -771,7 +777,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	width: 80%;
 	color: #434a7e;
 }
-
 .animation-jump {
 	position: relative;
 	-webkit-animation: animation-jump 2s ease-in-out infinite;
@@ -1517,6 +1522,10 @@ nav.fixed-top .nav-item .nav-link:before {
 14 - CONTACT AREA CSS
 ==================================================*/
 
+.col-lg-5{
+	margin-left: auto;
+    margin-right: auto;
+}
 .pelum-contact-area {
 	padding: 100px 0;
 	background-image: url(../img/shape-2.png);
