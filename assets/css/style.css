@@ -613,7 +613,7 @@ nav.navbar .navbar-toggler {
 nav.fixed-top .navbar-toggler span {
 	color: #111;
 	font-size: 25px;
-	padding-left:  320px;
+	
 }
 
 nav.navbar .nav-item {
@@ -663,7 +663,7 @@ nav.fixed-top .logo {
 	display: none
 }
 
-nav.fixed-top .logo. {
+nav.fixed-top .logo.HideScroll {
 	display: block
 }
 
