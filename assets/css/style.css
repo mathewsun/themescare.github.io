@@ -50,10 +50,13 @@ This files contents are outlined below >>>>
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700');
 @import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
 @font-face {
-    font-family: ArialRounded; /* Гарнитура шрифта */
-    src: url(../fonts/ArialRoundedMTProCyr-Bold.otf); /* Для IE5-8 */
-    src: local(ArialRounded), url(../fonts/ArialRoundedMTProCyr-Bold.otf); /* Для остальных браузеров */
-   }
+
+font-family: "ArialRounded"; 
+
+src: url("../fonts/ArialRounded.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
 /*================================================
 02 - DEFAULT CSS
 ==================================================*/
@@ -113,7 +116,7 @@ h6 {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
-	font-family: 'ArialRounded', sans-serif;
+	font-family: 'ArialRounded';
 }
 
 a {
@@ -603,7 +606,8 @@ nav.navbar .navbar-toggler {
 }
 
 .logo img{
-	width:55px
+	max-width:40px;
+	
 }
 
 nav.fixed-top .navbar-toggler span {
@@ -697,6 +701,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	position: relative;
 	background: #F8F8FF none repeat scroll 0 0;
 	height: 660px;
+
 }
 
 .shapes-container {
@@ -726,7 +731,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .welcome-image img {
-	width: 83%;
+	max-width: 600px;
 }
 
 .welcome-text h2 {
@@ -735,9 +740,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	line-height: 90px;
 	font-family: inherit;
 	margin-bottom: 20px;
-	margin-top: 180px; 
-	
-	
 }
 
 
@@ -1669,7 +1671,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .footer-logo img {
-	width: 110px;
+	max-width: 200px;
 }
 
 .footer-box {
