@@ -727,6 +727,28 @@ nav.fixed-top .nav-item .nav-link:before {
 	z-index: 0;
 }
 
+
+.welcome-social ul li {
+	display: inline-block;
+	
+}
+.welcome-social img {
+	max-width: 40px;
+	margin-bottom: 35px;
+}
+/*
+.welcome-social ul li a {
+	
+	background-color: #fff;
+	line-height: 30px;
+	border-radius: 5px;
+	
+	margin: 20px auto 20px;
+	position: relative;
+	display: block;
+	color: #4777f4;
+	z-index: 1;
+} */
 .welcome-image {
 	margin-top: 100px;
 }
