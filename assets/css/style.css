@@ -48,7 +48,6 @@ This files contents are outlined below >>>>
 ==================================================*/
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600,700');
-@import url('http://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
 @font-face {
 
 font-family: "ArialRounded"; 
@@ -68,7 +67,7 @@ body {
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ArialRounded';
 }
 
 html,
