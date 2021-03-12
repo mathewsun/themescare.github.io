@@ -603,6 +603,7 @@ nav.navbar {
 
 nav.navbar .navbar-toggler {
 	border: 0;
+
 }
 
 .logo img{
@@ -613,6 +614,7 @@ nav.navbar .navbar-toggler {
 nav.fixed-top .navbar-toggler span {
 	color: #111;
 	font-size: 25px;
+	padding-left:  320px;
 }
 
 nav.navbar .nav-item {
