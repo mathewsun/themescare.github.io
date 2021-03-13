@@ -916,7 +916,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .about-left img {
-	width: 95%
+	max-width: 100%;
 }
 
 
@@ -1205,6 +1205,14 @@ nav.fixed-top .nav-item .nav-link:before {
 	width: 90% !important;
 	margin: 0 auto;
 }
+
+.single-choose-item:hover {
+	width: 250% !important;
+	margin-left: -300px;
+
+}
+
+
 
 .single-choose-item {
 	background: #F8F8FF none repeat scroll 0 0;
@@ -1550,6 +1558,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	margin-left: auto;
     margin-right: auto;
 }
+
 .pelum-contact-area {
 	padding: 100px 0;
 	background-image: url(../img/shape-2.png);
