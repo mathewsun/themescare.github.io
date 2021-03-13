@@ -152,6 +152,15 @@ JS INDEX
 			fixedContentPos: false
 		});
 
+		$('.popup-youtube-text').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		});
+
 		/* 
 		=================================================================
 		05 - Button Hover JS

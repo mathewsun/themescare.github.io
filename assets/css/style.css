@@ -980,6 +980,8 @@ nav.fixed-top .nav-item .nav-link:before {
 	margin-bottom: 35px;
 }
 
+
+
 .popup-youtube:hover {
 	color: #fff
 }
@@ -1007,6 +1009,20 @@ nav.fixed-top .nav-item .nav-link:before {
 	top: -10px;
 	z-index: -1;
 }
+/* TEST */
+
+.discount-text {
+	text-decoration: line-through;
+}
+.discount-sup {
+	left: -100px;
+	top: -25px;
+	color: red;
+}
+
+
+
+/* END TEST */
 
 .flaticon-play:before {
 	margin-left: 0;
