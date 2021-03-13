@@ -922,7 +922,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .pelum-video-area {
 	position: relative;
-	background: url(../img/AD_front.tif) no-repeat fixed 0 0/cover;
+	background: url(../img/AD_front.png) no-repeat fixed 0 0/cover;
 	padding: 100px 0
 }
 
@@ -1026,8 +1026,6 @@ nav.fixed-top .nav-item .nav-link:before {
 	top: -20px;
 	
 }
-
-
 
 /* END TEST */
 
