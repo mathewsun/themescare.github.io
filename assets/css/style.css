@@ -1017,13 +1017,14 @@ nav.fixed-top .nav-item .nav-link:before {
 /* TEST */
 
 .discount-text {
-	text-decoration: line-through;
+	color: red;
 }
 .discount-sup {
+	text-decoration: line-through;
 	left: -100px;
-	top: -25px;
-	color: red;
-	font-size: 25px;
+	top: -20px;
+	
+	font-size: 22px;
 }
 
 
