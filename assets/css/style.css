@@ -309,8 +309,9 @@ li {
 	overflow: hidden
 }
 
-.video-box p{
+.video-box a{
 	text-decoration: underline;
+	color: #4777f4 !important;
 }
 
 
