@@ -152,7 +152,16 @@ JS INDEX
 			fixedContentPos: false
 		});
 
-		$('.popup-youtube-text').magnificPopup({
+		$('.popup-youtube-text1').magnificPopup({
+			disableOn: 700,
+			type: 'iframe',
+			mainClass: 'mfp-fade',
+			removalDelay: 160,
+			preloader: false,
+			fixedContentPos: false
+		});
+
+		$('.popup-youtube-text2').magnificPopup({
 			disableOn: 700,
 			type: 'iframe',
 			mainClass: 'mfp-fade',
