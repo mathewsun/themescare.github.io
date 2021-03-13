@@ -309,6 +309,11 @@ li {
 	overflow: hidden
 }
 
+.video-box p{
+	text-decoration: underline;
+}
+
+
 .site-heading .heading_overlay:after,
 .about-heading .heading_overlay:after {
 	content: '';
@@ -1018,6 +1023,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	left: -100px;
 	top: -25px;
 	color: red;
+	font-size: 25px;
 }
 
 
