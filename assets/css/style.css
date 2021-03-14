@@ -922,9 +922,9 @@ nav.fixed-top .nav-item .nav-link:before {
 .pelum-video-area {
 	position: relative;
 	background: url(../img/AD_front.png) no-repeat fixed 0 0/cover;
-	padding: 100px 0
+	padding: 100px 0;
 }
-
+  
 .pelum-video-area:before {
 	position: absolute;
 	content: "";
@@ -932,7 +932,7 @@ nav.fixed-top .nav-item .nav-link:before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(8, 21, 40, 0.89) none repeat scroll 0 0;
+	background: rgba(8, 21, 40, 0.89) none repeat scroll 0 0;	
 }
 
 .video-box {
@@ -1494,6 +1494,57 @@ nav.fixed-top .nav-item .nav-link:before {
 	background: #F8F8FF url(../img/map.png) no-repeat scroll center center/cover;
 }
 
+.subscribe-btn {
+	background-color: #4777f4 !important;
+	border-radius: 40px;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	display: inline-block;
+	padding: 10px 35px;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff !important;
+	font-weight: 600;
+	line-height: 25px;
+	margin: 20px 0 0;
+	letter-spacing: 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	height: 45px
+}
+
+.subscribe-btn span {
+	background: #0f083a none repeat scroll 0 0;
+	border-radius: 50%;
+	display: block;
+	height: 0;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transition: width .6s ease 0s, height .6s ease 0s;
+	-moz-transition: width .6s ease 0s, height .6s ease 0s;
+	-webkit-transition: width .6s ease 0s, height .6s ease 0s;
+	-ms-transition: width .6s ease 0s, height .6s ease 0s;
+	-o-transition: width .6s ease 0s, height .6s ease 0s;
+	width: 0;
+	z-index: -1;
+}
+
+.subscribe-btn:hover span {
+	height: 562.5px;
+	width: 562.5px;
+}
+
+.subscribe-btn:hover {
+	color: #fff;
+}
+
 .subscribe-box form {
 	width: 55%;
 	margin: 0 auto;
@@ -1716,17 +1767,17 @@ nav.fixed-top .nav-item .nav-link:before {
 .footer-copyright p {
 	margin-top: 10px;
 	padding-top: 5px;
-	border-top: 1px solid #ddd;
+	border-top: 2px solid #ddd;
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: 3px;
 	text-transform: uppercase;
-	color: #fff;
+	color: #4777f4 !important;
 }
 
 .footer-logo img {
-	max-width: 200px;
+	max-width: 100px;
 }
 
 .footer-box {

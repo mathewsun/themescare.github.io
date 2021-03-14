@@ -39,7 +39,7 @@ JS INDEX
 			mouseDrag: true,
 			nav: false,
 			dots: true,
-			autoplayTimeout: 9000,
+			autoplayTimeout: 14000,
 			autoplaySpeed: 1200,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 			responsive: {
@@ -77,7 +77,7 @@ JS INDEX
 			mouseDrag: true,
 			nav: false,
 			dots: true,
-			autoplayTimeout: 6000,
+			autoplayTimeout: 18000,
 			autoplaySpeed: 1200,
 			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
 			responsive: {
