@@ -818,8 +818,8 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-features-area {
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	
 	background-position: left;
 	background-repeat: no-repeat;
@@ -1059,7 +1059,7 @@ nav.fixed-top .nav-item .nav-link:before {
 ==================================================*/
 
 .pelum-choose-area {
-	padding: 100px 0;
+	padding: 20px 0;
 }
 
 .choose-left ul li.choose-box {
@@ -1263,7 +1263,7 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .pelum-product-area {
 	background: #F8F8FF none repeat scroll 0 0;
-	padding: 100px 0;
+	padding: 20px 0;
 }
 
 .product-item {
