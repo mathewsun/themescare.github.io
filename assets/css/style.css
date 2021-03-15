@@ -1245,6 +1245,11 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .choose-right {
 	margin-top: 45px;
+
+}
+
+.choose-right img{
+	max-width: 700px;
 }
 
 
