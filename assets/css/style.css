@@ -1248,10 +1248,14 @@ nav.fixed-top .nav-item .nav-link:before {
 
 }
 
-.choose-right img{
+.h2-gif {
 	max-width: 700px;
 }
-
+@media (max-width: 540px) {
+    .h2-gif {
+		margin-left: 20px;
+		max-width: 320px;
+	} }
 
 /*================================================
 10 - PRODUCT AREA CSS
