@@ -929,6 +929,12 @@ nav.fixed-top .nav-item .nav-link:before {
 	padding: 100px 0;
 }
   
+@media (max-width: 540px) {
+    .pelum-video-area {
+		background-size: auto;
+		background-position: 50% 50%;
+	} }
+
 .pelum-video-area:before {
 	position: absolute;
 	content: "";
