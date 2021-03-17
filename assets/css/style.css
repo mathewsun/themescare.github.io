@@ -594,6 +594,10 @@ li {
 04 - NAVBAR CSS
 ==================================================*/
 
+.center-number {
+	max-width: 100%;
+}
+
 nav.navbar {
 	position: absolute;
 	width: 100%;
@@ -612,8 +616,13 @@ nav.navbar .navbar-toggler {
 
 .logo img{
 	max-width:40px;
-	
+	margin-right: 140px;
 }
+
+@media (max-width: 540px) {
+    .logo img {
+		margin-right: 0;
+	} }
 
 nav.fixed-top .navbar-toggler span {
 	color: #111;
